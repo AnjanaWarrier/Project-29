@@ -75,9 +75,9 @@ function setup(){
     box13 = new Box(1000,55,30,40)
 
 
-    polygon = new SlingObj(100,300);
+    polygon = new SlingObj(100,150);
 
-    sling = new SlingShot(polygon.body,{x:100,y:300})
+    sling = new SlingShot(polygon.body,{x:100,y:150})
     
 }
 function draw(){
